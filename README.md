@@ -76,7 +76,6 @@ addToCart({productId, skuId, quantity})- Handles add-to-cart requests
 removeFromCart({skuId, quantity}) - Handles item removal from cart
 
 
-
 Technologies Used
 
 HTML5- Semantic markup
@@ -84,63 +83,41 @@ CSS3 - Modern styling with gradients, animations, and responsive design
 JavaScript (ES6+) - Vanilla JavaScript with async/await
 No Frameworks- Pure frontend implementation
 
-
-Project Structure
-
-interview new/
-├── index.html          # Main HTML file with inline CSS and JavaScript
-├── css/
-│   └── style.css      # Stylesheet (not used - styles are inline)
-└── js/
-    └── app.js         # JavaScript (not used - logic is inline)
-
 ![image alt](https://github.com/shakil262/my-all-project-/blob/ae09f584efcbbfb426dbaf52633a4fb708367cc1/all%20img.png)
- 
-
-
-🚀 How to Run
-
+ How to Run
  Option 1: Python HTTP Server
-```bash
+bash
 python -m http.server 8000
  Open http://localhost:8000/
 
-
 Option 2: Node.js HTTP Server
-```bash
+bash
 npx http-server -p 8000
 Open http://localhost:8000/
-
 
 Option 3: Direct File Open
 Simply double-click `index.html` to open it in your browser.
 
-## ✅ Requirements Met
-
+ Requirements Met
 This project implements all requirements from the frontend coding test:
-
 1.UI Display- Product image, name, price, stock, description, and 2 variant dimensions
 2.Interaction Logic- Variant selection, quantity control, add-to-cart with all constraints
 3.Mock API- Complete mock API with proper response formats
 4.Required States- Loading, API error, out of stock, success, and failure states
 
  Design Features
-
-- Modern UI*- Gradient backgrounds, rounded corners, smooth animations
-- Responsive Design - Mobile-friendly layout
-- Visual Feedback- Hover effects, active states, loading spinners
-- Accessibility - Clear labels, proper contrast, keyboard navigation
-- Professional Look - Feature cards for shipping, warranty, returns, support
+Modern UI- Gradient backgrounds, rounded corners, smooth animations
+Responsive Design - Mobile-friendly layout
+Visual Feedback- Hover effects, active states, loading spinners
+Accessibility - Clear labels, proper contrast, keyboard navigation
+Professional Look - Feature cards for shipping, warranty, returns, support
 
 Product Information
 
 Product:HP Pavilion 15 Laptop
-
 Description:The HP Pavilion 15 features the latest Intel® Core™ i5 14th Generation processor, delivering fast and reliable performance for work, study, programming, and entertainment. With a vibrant 15.6-inch Full HD display, high-speed SSD storage, and long-lasting battery life, it ensures a smooth and responsive user experience. Its sleek, lightweight design makes it the perfect laptop for professionals, students, and everyday productivity.
 
-Variants:
-Silver / 512GB SSD - $749.99 (18 in stock)
-Silver / 1TB SSD - $899.99 (8 in stock)
-Black / 512GB SSD - $799.99 (5 in stock)
-Black / 1TB SSD - $949.99 (0 in stock - out of stock)
+
+
+
 

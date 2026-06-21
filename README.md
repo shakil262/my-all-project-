@@ -94,6 +94,9 @@ interview new/
 └── js/
     └── app.js         # JavaScript (not used - logic is inline)
 
+![image alt](https://github.com/shakil262/my-all-project-/blob/ae09f584efcbbfb426dbaf52633a4fb708367cc1/all%20img.png)
+ 
+
 
 🚀 How to Run
 
